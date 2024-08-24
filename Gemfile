@@ -59,3 +59,6 @@ end
 
 # adding for integration test
 gem "rails-controller-testing"
+
+# To create secure Hash through bcrypt Hash Function
+gem "bcrypt"
