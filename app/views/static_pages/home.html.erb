@@ -1,9 +1,10 @@
-<%provide(:title, "Home")%>
 
+<div class="center jumbotron">
+    <h1>Welcome to the Sample App</h1>
+    <h2>
+        This is home page for the <%=link_to "Ruby of Rails Tutorial", "https://www.google.com" %> </h2>
 
-<h1>Sample App</h1>
-<p>
-    This is the Home page for the
-    <a href="https://www.google.com"> Ruby on Rails Tutorial </a>
-    Sample application.
-</p>
+    <%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary"%>
+</div>
+<%= link_to image_tag("rails.svg", alt: "Rails logo", width: "200"), "https://rubyonrails.org/"%>
+<%# <%= link_to image_tag("kitten.jpg", alt: "Kitten Picture", width: "500") %> %>

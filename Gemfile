@@ -18,7 +18,8 @@ gem "stimulus-rails"
 gem "jbuilder"
 # Use Redis adapter to run Action Cable in production
 # gem "redis", ">= 4.0.1"
-
+gem "bootstrap-sass", "3.4.1"
+gem "sassc-rails", "2.1.2"
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
 
@@ -55,3 +56,6 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+# adding for integration test
+gem "rails-controller-testing"
