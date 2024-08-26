@@ -1,0 +1,18 @@
+current directory: /home/nmustafa/Documents/Odin/repos/rail_test/sample_app/vendor/bundle/ruby/3.3.0/gems/bindex-0.8.1/ext/skiptrace
+/home/nmustafa/.rbenv/versions/3.3.4/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/nmustafa/Documents/Odin/repos/rail_test/sample_app/vendor/bundle/ruby/3.3.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20240826-37390-ybtooz sitelibdir\=./.gem.20240826-37390-ybtooz clean
+
+current directory: /home/nmustafa/Documents/Odin/repos/rail_test/sample_app/vendor/bundle/ruby/3.3.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20240826-37390-ybtooz sitelibdir\=./.gem.20240826-37390-ybtooz
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.so
+
+current directory: /home/nmustafa/Documents/Odin/repos/rail_test/sample_app/vendor/bundle/ruby/3.3.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20240826-37390-ybtooz sitelibdir\=./.gem.20240826-37390-ybtooz install
+/usr/bin/install -c -m 0755 cruby.so ./.gem.20240826-37390-ybtooz/skiptrace/internal
+
+current directory: /home/nmustafa/Documents/Odin/repos/rail_test/sample_app/vendor/bundle/ruby/3.3.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20240826-37390-ybtooz sitelibdir\=./.gem.20240826-37390-ybtooz clean

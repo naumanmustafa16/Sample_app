@@ -1,0 +1,18 @@
+current directory: /home/nmustafa/Documents/Odin/repos/rail_test/sample_app/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+/home/nmustafa/.rbenv/versions/3.3.4/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/nmustafa/Documents/Odin/repos/rail_test/sample_app/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240826-37390-sz59iz sitelibdir\=./.gem.20240826-37390-sz59iz clean
+
+current directory: /home/nmustafa/Documents/Odin/repos/rail_test/sample_app/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240826-37390-sz59iz sitelibdir\=./.gem.20240826-37390-sz59iz
+compiling cparse.c
+linking shared-object racc/cparse.so
+
+current directory: /home/nmustafa/Documents/Odin/repos/rail_test/sample_app/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240826-37390-sz59iz sitelibdir\=./.gem.20240826-37390-sz59iz install
+/usr/bin/install -c -m 0755 cparse.so ./.gem.20240826-37390-sz59iz/racc
+
+current directory: /home/nmustafa/Documents/Odin/repos/rail_test/sample_app/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240826-37390-sz59iz sitelibdir\=./.gem.20240826-37390-sz59iz clean
