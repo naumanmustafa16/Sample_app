@@ -28,5 +28,6 @@ password_confirmation: "foobar" } }
   follow_redirect!
   assert_template "users/show"
   assert_not flash.alert
+  assert is_logged_in?
 end
 end

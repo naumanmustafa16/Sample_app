@@ -1,3 +1,6 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-#empty
+nauman:
+ name: Muhammad Nauman Mustafa
+ email: naumanmustafa16@gmail.com
+ password_digest: <%= User.digest('123456')%>
