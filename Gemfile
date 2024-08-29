@@ -62,3 +62,11 @@ gem "rails-controller-testing"
 
 # To create secure Hash through bcrypt Hash Function
 gem "bcrypt"
+
+# To make fake users
+gem "faker"
+
+# To do Pagination
+gem "will_paginate", "3.3.1"
+
+gem "bootstrap-will_paginate", "~> 1.0"
